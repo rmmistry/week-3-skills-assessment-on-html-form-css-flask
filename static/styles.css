@@ -1,0 +1,18 @@
+/*your CSS goes here*/
+
+input {
+    background-color: #FFFF66;
+    }
+
+.boldtext {
+    font-weight: bold;
+}
+
+.border {
+    border-style: solid;
+    border-color: #ff0000;
+}
+
+body {
+    line-height: 30px;
+}

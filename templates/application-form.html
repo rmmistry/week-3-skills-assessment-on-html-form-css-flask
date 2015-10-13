@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Skills-HTML-CSS</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body>
+        <!-- your html goes here -->
+        <h1 class="border"> Tell us about your job requirement </h1>
+        <h2 class="border"> Enter all the information below </h2>
+        <form  action="/application" method="POST" >
+
+            <label> First Name:
+                <input type="text" name="firstname" placeholder="enter your firstname">
+                </input>
+            </label><br><br>
+
+            <label> Last Name:
+                <input class="boldtext" type="text" name="lastname" placeholder="enter your lastname">
+                </input>
+            </label><br><br>
+
+            <label> Required Salary: $
+                <input type="text" name="salary" placeholder="enter salary">
+                </input>
+            </label><br><br>
+
+            <label> Job Applying For:
+                <select name="jobtype">
+                    <option value="softwareengineer">Software Engineer
+                    </option>
+                    <option value="qaengineer">QA Engineer
+                    </option>
+                    <option value="Productmanager">Product Manager
+                    </option>
+                </select>
+            </label><br><br>
+
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>
